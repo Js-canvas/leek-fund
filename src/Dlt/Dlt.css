@@ -1,0 +1,81 @@
+.wrapper {
+  display: flex;
+}
+
+.right-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.operate-dlt {
+  margin: 8px;
+}
+
+button {
+  margin: 8px;
+}
+
+.dlt {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.dlt-item {
+  display: flex;
+}
+
+.dlt-item > span {
+  display: inline-block;
+  margin: 6px;
+}
+
+.dlt-num {
+  display: inline-block;
+  border-radius: 50%;
+  margin: 4px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  line-height: 18px;;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.jj-wrapper {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.hot {
+  display: flex;
+  flex-direction: column;
+}
+
+.num-wrapper {
+  display: flex;
+}
+
+.num-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  overflow-y: auto;
+}
+
+.num-content>div > span {
+  display: inline-block;
+  width: 60px;
+}

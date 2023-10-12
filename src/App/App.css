@@ -1,0 +1,40 @@
+.wrapper {
+  display: flex;
+}
+
+.operate {
+  margin: 8px;
+  position:fixed ;
+  right:0;
+  bottom:0;
+}
+
+button {
+  margin: 8px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+.app-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-item > span {
+  display: inline-block;
+  margin: 6px;
+}
+
+.app-red {
+  color: red;
+}
+
+.green {
+  color: green;
+}

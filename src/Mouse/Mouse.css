@@ -1,0 +1,24 @@
+.mouse-wrapper {
+  width: 80vw;
+  /* height: 80vh; */
+  display: flex;
+  border: 1px solid #ccc;
+  margin: calc(10vh - 2px) calc(10vw - 2px);
+  overflow: hidden;
+}
+
+.mouse-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.mouse-item {
+  width: 200px;
+  height: 80px;
+  border: 1px solid #ccc;
+  user-select: none;
+}
+
+.mouse-checked {
+  background-color: red;
+}
